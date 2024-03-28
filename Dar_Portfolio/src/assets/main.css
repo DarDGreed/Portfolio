@@ -1,0 +1,9 @@
+.flex {
+    display: flex;
+}
+.bold {
+    color: black;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    font-family: Arial;
+}

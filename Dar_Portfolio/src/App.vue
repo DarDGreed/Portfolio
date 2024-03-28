@@ -1,3 +1,13 @@
+<script setup>
+import MainView from './components/MainView.vue'
+import Navigation from './components/Navigation.vue';
+</script>
+
 <template>
-  <h1>Hello world</h1>
+  <div class="navigation">
+    <Navigation />
+  </div>
+  <div class="content">
+    <MainView />
+  </div>
 </template>
