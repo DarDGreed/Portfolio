@@ -18,7 +18,6 @@
         </div>
     </div>
 </template>
-
 <style scoped>
 .container {
     margin: 30px 60px 30px 60px;
@@ -40,5 +39,17 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+@media only screen and (600px > width) {
+    .testimonial_container {
+        width: 225px;
+        height: 175px;
+        margin-right: 35px;
+    }
+    .title {
+        color: rgb(3, 139, 230);
+        margin-top: 10px;
+        font-size: 20px;
+    }
 }
 </style>

@@ -37,4 +37,24 @@
     align-items: center;
     justify-content: center;
 }
+@media only screen and (600px > width) {
+    .inProgress {
+        width: 145px;
+        height: 115px;
+        margin-right: 75px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .image {
+        width: 135px;
+        height: 125px;
+        border-radius: 20px;
+    }
+    .project_name {
+        font-size: 15px;
+        margin: 5px;
+    }
+}
 </style>

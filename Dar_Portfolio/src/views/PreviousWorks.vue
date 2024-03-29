@@ -45,4 +45,19 @@
     align-items: center;
     justify-content: center;
 }
+@media only screen and (600px > width) {
+    .projects {
+        width: 145px;
+        height: 115px;
+        margin-right: 45px;
+    }
+    .image {
+        width: 135px;
+        height: 125px;
+        border-radius: 20px;
+    }
+    .project_name {
+        font-size: 20px;
+    }
+}
 </style>
