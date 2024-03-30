@@ -6,13 +6,13 @@
     <div class="container">
         <div class="testimonial_container">
             <video id="testimonials" class="testimonials" controls>
-                <source src="@/assets/videos/sample.mp4">
+                <source src="@/assets/videos/video_sample.mp4">
             </video>
             <span class="title">Notes App Testimony</span>
         </div>
         <div class="testimonial_container">
             <video id="testimonials" class="testimonials" controls>
-                <source src="@/assets/videos/sample.mp4">
+                <source src="@/assets/videos/video_sample.mp4">
             </video>
             <span class="title">Todo Project Testimony</span>
         </div>
@@ -33,6 +33,7 @@
 }
 .testimonials {
     border-radius: 10px;
+    height: 325px;
 }
 .title {
     color: rgb(3, 139, 230);
@@ -52,6 +53,10 @@
     height: 235px;
     margin-right: 55px;
 }
+.testimonials {
+    border-radius: 10px;
+    height: 305px;
+}
 .title {
     font-size: 25px;
     margin-top: 10px
@@ -66,12 +71,16 @@
     height:195px;
     margin-right: 45px;
 }
+.testimonials {
+    border-radius: 10px;
+    height: 255px;
+}
 .title {
     font-size: 20px;
     margin-top: 10px
 }
 }
-@media only screen and (600px > width) {
+@media only screen and (600px >= width) {
 .container {
     margin: 30px 60px 30px 60px;
 }
@@ -79,6 +88,10 @@
     width: 240px;
     height:185px;
     margin-right: 40px;
+}
+.testimonials {
+    border-radius: 10px;
+    height: 235px;
 }
 .title {
     font-size: 18px;
@@ -94,6 +107,10 @@
     height:115px;
     margin-right: 25px;
 }
+.testimonials {
+    border-radius: 10px;
+    height: 165px;
+}
 .title {
     font-size: 12px;
     margin-top: 8px
@@ -108,6 +125,10 @@
     height:105px;
     margin-right: 20px;
 }
+.testimonials {
+    border-radius: 10px;
+    height: 145px;
+}
 .title {
     font-size: 11px;
     margin-top: 7px
@@ -121,6 +142,10 @@
     width: 110px;
     height:85px;
     margin-right: 15px;
+}
+.testimonials {
+    border-radius: 10px;
+    height: 125px;
 }
 .title {
     font-size: 9px;
