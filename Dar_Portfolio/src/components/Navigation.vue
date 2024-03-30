@@ -90,7 +90,7 @@
     width: 100px;    
 }
 }
-@media only screen and (600px > width) {
+@media only screen and (600px >= width) {
 .main_nav a{
     margin-right: 5px;
     font-size: 15px;
